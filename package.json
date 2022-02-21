@@ -1,11 +1,8 @@
 {
   "name": "modern-syslog",
-  "version": "1.2.0",
+  "version": "1.2.1",
   "description": "modern syslog - streaming, async, uses nan",
   "main": "index.js",
-  "os": [
-    "!win32"
-  ],
   "scripts": {
     "test": "tap test/test-*.js"
   },
@@ -22,9 +19,6 @@
   "devDependencies": {
     "debug": "^4.1.1",
     "tap": "^13.1.2"
-  },
-  "dependencies": {
-    "nan": "^2.13.2"
   },
   "tags": [
     "log",

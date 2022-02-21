@@ -1,4 +1,8 @@
-# modern syslog - streaming, async, native, uses nan
+# modern syslog - stub replacement
+
+Stub implementation of the original [modern-syslog](https://github.com/strongloop/modern-syslog) package.
+
+Meant to be used **only for development purposes** on Windows, which is not supported by the original package.
 
 This is the only syslog library that:
 
@@ -7,7 +11,6 @@ This is the only syslog library that:
   that shouldn't block your app.
 - Can be used as a stream.
 - Has formatted log functions.
-- Uses nan, so supports node and io.js, and will continue to do so.
 - Is API compatible with [node-syslog][], from which I gathered inspiration
   and owe thanks.
 
